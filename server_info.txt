@@ -1,1 +1,1 @@
-[{"status":"online","source":"GitHub","type":"server_info"}]
+[{"status":"online","name":"GitHub","type":"server_info"}]
