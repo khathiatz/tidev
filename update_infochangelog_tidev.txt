@@ -1,3 +1,10 @@
+1.2.29 - 27/01/2021
+Update license can active by license key
+Update license func
+Add read changelog func
+Fix bugs.
+Improve performance.
+
 1.1.26
 Fix stock clipput
 
