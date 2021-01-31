@@ -25,7 +25,6 @@
 {"time":"2021/01/30 01:00:00"},{"aqius":111},
 {"time":"2021/01/30 00:00:00"},{"aqius":130}
 ]}
-
 {"city":"Ben Tre City","source":"https://www.iqair.com/us/vietnam/tinh-ben-tre/ben-tre",
 "aqiusdatahistory_mon01":[
 {"time":"2021/01/30 23:00:00"},{"aqius":110},
