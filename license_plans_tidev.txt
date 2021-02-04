@@ -1,8 +1,10 @@
 [{"type":"license_plans_tidev","update_date":"2021/02/04"}
-{"plans1":"Trial PRO  0 VND/PC/3 month"}
+{"plans_max":6}
+{"plans1":"Trial PRO  Free/PC/3 month"}
 {"plans2":"Professional (1 PC)  100,000 VND/PC/unlimit"}
 {"plans3":"Professional (3 PC)  50,000 VND/PC/1 year"}
-{"plans3":"Professional (5 PC)  40,000 VND/PC/1 year"}
-{"plans3":"Professional (10 PC)  30,000 VND/PC/1 year"}
-{"plans4":"V.I.P contact us"}
+{"plans4":"Professional (5 PC)  40,000 VND/PC/1 year"}
+{"plans5":"Professional (10 PC)  30,000 VND/PC/1 year"}
+{"plans6":"V.I.P contact us"}
+{"plans_default":"Trial PRO  Free/PC/3 month"}
 ]
