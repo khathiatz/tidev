@@ -1,3 +1,9 @@
+1.4.51 - 10/03/2021
+Fix quote lunar calendar
+
+1.4.50 - 28/02/2021
+Fix "Air pollution widget data layer changer" bugs.
+
 1.4.49 - 15/02/2021
 Fix bugs.
 Improve performance.
