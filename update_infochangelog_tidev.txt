@@ -1,3 +1,6 @@
+1.4.52 - 14/03/2021
+Add Autoruns app
+
 1.4.51 - 10/03/2021
 Fix quote lunar calendar
 
