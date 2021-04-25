@@ -1,4 +1,8 @@
-1.5.64 - 18/04/2021
+1.5.70 - 25/04/2021
+Fix bugs.
+Improve update performance.
+
+1.5.65 - 21/04/2021
 Fix bugs.
 Improve performance.
 
