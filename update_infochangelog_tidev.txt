@@ -1,3 +1,18 @@
+1.5.77 - 20/05/2021
+Add crypto logo in widget
+Fix widget screen scale bug
+Fix bugs.
+Improve performance.
+
+1.5.74 - 12/05/2021
+New func TidevAutoScript
+Fix and update crypto func
+Fix widget screen scale bug
+New user account auto login
+Users can manually add new app versions
+Fix bugs.
+Improve widget performance.
+
 1.5.70 - 25/04/2021
 Fix bugs.
 Improve update performance.
