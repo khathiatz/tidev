@@ -1,3 +1,7 @@
+1.5.78 - 06/06/2021
+Fix bugs.
+Improve performance.
+
 1.5.77 - 20/05/2021
 Add crypto logo in widget
 Fix widget screen scale bug
