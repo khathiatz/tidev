@@ -1,4 +1,4 @@
 # Tidev
-Tidev app
+Tidev app - Make your jobs easier !
 
 https://tidevapp.wordpress.com
