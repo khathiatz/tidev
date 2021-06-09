@@ -12,7 +12,11 @@ Tidev có thể làm gì?
 - Tiện ích & cá nhân hóa: Phần mềm còn được tích hợp một số tiện ích hỗ trợ cho công việc của bạn. Ngoài ra bạn hoàn toàn có thể cá nhân hóa tính năng của phần mềm nếu thích.
 
 Chúng tôi.
+
 Tidev được lập trình và trực tiếp quản lý bởi Nguyễn Khả Thi.
+
 Địa chỉ: Bến Tre, Việt Nam.
+
 Email: khathi.nkt@gmail.com
+
 https://tidevapp.wordpress.com
