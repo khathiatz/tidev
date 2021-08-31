@@ -1,3 +1,8 @@
+1.6.92 - 30/08/2021
+Improve report performance
+Fix bugs.
+Improve performance.
+
 1.6.88 - 16/08/2021
 Add new Telegram command (GetUsageNetwork).
 Improve TelegramCommand performance.
