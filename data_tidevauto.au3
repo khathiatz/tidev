@@ -1,24 +1,25 @@
-; 1.0.0
-; Tidev Auto Script
+; 1.0.1
+; Tidev auto realtime script
+; This script will be automatically updated periodically.
+; You can edit the content, but when it is updated, the content you edit will be lost.
+; Update time: 21/09/2021
 
 #NoTrayIcon
 
 
-; Close program
+; Antirun (close) program
+#Region Antirun (close) program
 AntiRunProgram('AdobeARM.exe')
 AntiRunProgram('msoia.exe')
 AntiRunProgram('UpdaterStartupUtility.exe')
 AntiRunProgram('AAM Updates Notifier.exe')
+#EndRegion Antirun (close) program
 
 
 ; Close program X if Y not run
-If ProcessExists('Chrome.exe')=0 Then
-   AntiRunProgram('GoogleCrashHandler.exe')
-   AntiRunProgram('GoogleCrashHandler64.exe')
-EndIf
+#Region Close program X if Y not run
 
-; Autocad 2020
-If ProcessExists('acad.exe')=0 Then
+If ProcessExists('acad.exe')=0 And ProcessExists('revit.exe')=0 Then ; Autocad, Revit
    AntiRunProgram('AdAppMgrSvc.exe')
    AntiRunProgram('ADPClientService.exe')
    AntiRunProgram('AdskLicensingAgent.exe')
@@ -31,30 +32,36 @@ Else
 ;~    If ProcessExists('AdskLicensingService.exe')=0 Then Run('C:\Program Files (x86)\Common Files\Autodesk Shared\AdskLicensing\9.0.1.1462\AdskLicensingService\AdskLicensingService.exe')
 EndIf
 
-
-If ProcessExists('revit.exe')=0 And ProcessExists('acad.exe')=0 Then
-   AntiRunProgram('AdAppMgrSvc.exe')
+If ProcessExists('Chrome.exe')=0 Then ; Chrome
+   AntiRunProgram('GoogleCrashHandler.exe')
+   AntiRunProgram('GoogleCrashHandler64.exe')
 EndIf
 
+If ProcessExists('GoogleDriveFS.exe')=0 Then ; GoogleDriveFS.exe
+   AntiRunProgram('crashpad_handler.exe')
+EndIf
 
-; Close program IDMIntegrator64.exe if IDMan.exe not run
-If ProcessExists('IDMan.exe')=0 Then ProcessClose('IDMIntegrator64.exe')
+If ProcessExists('IDMan.exe')=0 Then ; IDM
+   ProcessClose('IDMIntegrator64.exe')
+EndIf
+
+#EndRegion Close program X if Y not run.
+
 
 ; Close program and rename
-If AntiRunProgram('MSOUC.EXE')=True Then
-   FileMove('C:\Program Files\Microsoft Office\Office15\MSOUC.EXE','C:\Program Files\Microsoft Office\Office15\MSOUC.EXE[DISABLE]',1)
+#Region Close program and rename
+
+If AntiRunProgram('MSOUC.EXE')=True Then ; Office
+   FileMove(@HomeDrive&'\Program Files\Microsoft Office\Office15\MSOUC.EXE',@HomeDrive&'\Program Files\Microsoft Office\Office15\MSOUC.EXE[DISABLE]',1)
    FileMove('D:\Program Files\Microsoft Office\Office15\MSOUC.EXE','D:\Program Files\Microsoft Office\Office15\MSOUC.EXE[DISABLE]',1)
 EndIf
 
-; Close program and rename
-If AntiRunProgram('MSOSYNC.EXE')=True Then
-   FileMove('C:\Program Files\Microsoft Office\Office15\MSOSYNC.EXE','C:\Program Files\Microsoft Office\Office15\MSOSYNC.EXE[DISABLE]',1)
+If AntiRunProgram('MSOSYNC.EXE')=True Then ; Office
+   FileMove(@HomeDrive&'\Program Files\Microsoft Office\Office15\MSOSYNC.EXE',@HomeDrive&'\Program Files\Microsoft Office\Office15\MSOSYNC.EXE[DISABLE]',1)
    FileMove('D:\Program Files\Microsoft Office\Office15\MSOSYNC.EXE','D:\Program Files\Microsoft Office\Office15\MSOSYNC.EXE[DISABLE]',1)
 EndIf
 
-
-
-
+#EndRegion Close program and rename
 
 
 Exit ; Script will end here
@@ -85,6 +92,3 @@ EndFunc
 
 
 #Region NOT EDIT HERE
-
-
-
