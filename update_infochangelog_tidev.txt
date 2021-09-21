@@ -1,3 +1,11 @@
+1.6.98 - 17/09/2021
+Add ShellMenuView app
+Improve license func.
+Add more backup slot.
+Fix widget wearther, BitLocker access
+Fix bugs.
+Improve performance.
+
 1.6.93 - 04/09/2021
 Fix bugs.
 Improve performance.
