@@ -1,4 +1,4 @@
-; 1.0.1
+; 1.0.2
 ; Tidev auto realtime script
 ; This script will be automatically updated periodically.
 ; You can edit the content, but when it is updated, the content you edit will be lost.
@@ -9,7 +9,9 @@
 
 ; Antirun (close) program
 #Region Antirun (close) program
+AntiRunProgram('acrotray.exe')
 AntiRunProgram('AdobeARM.exe')
+AntiRunProgram('armsvc.exe')
 AntiRunProgram('msoia.exe')
 AntiRunProgram('UpdaterStartupUtility.exe')
 AntiRunProgram('AAM Updates Notifier.exe')
