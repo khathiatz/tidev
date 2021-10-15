@@ -1,3 +1,10 @@
+1.6.104 - 15/10/2021
+New app: Cleaner
+New featured: Disable PDF thumb. in Tools
+TempDirCleaner will be deleted
+Fix bugs (IsFile, Widget API, Telegram bot...)
+Improve performance
+
 1.6.100 - 21/09/2021
 Update TidevAutoScript v1.0.1
 Add ShellMenuView app
@@ -29,104 +36,3 @@ Add Telegram bot command func
 Add AntiCrash options
 Fix bugs.
 Improve performance.
-
-1.5.78 - 06/06/2021
-Fix bugs.
-Improve performance.
-
-1.5.77 - 20/05/2021
-Add crypto logo in widget
-Fix widget screen scale bug
-Fix bugs.
-Improve performance.
-
-1.5.74 - 12/05/2021
-New func TidevAutoScript
-Fix and update crypto func
-Fix widget screen scale bug
-New user account auto login
-Users can manually add new app versions
-Fix bugs.
-Improve widget performance.
-
-1.5.70 - 25/04/2021
-Fix bugs.
-Improve update performance.
-
-1.5.65 - 21/04/2021
-Fix bugs.
-Improve performance.
-
-1.5.54 - 06/04/2021
-Add Binance cryptocurrency func
-Improve Stock widget performance
-Improve T-Finance UX
-Fix bugs.
-Improve performance.
-
-1.4.52 - 14/03/2021
-Add Autoruns app
-
-1.4.51 - 10/03/2021
-Fix quote lunar calendar
-
-1.4.50 - 28/02/2021
-Fix "Air pollution widget data layer changer" bugs.
-
-1.4.49 - 15/02/2021
-Fix bugs.
-Improve performance.
-
-1.4.45 - 12/02/2021
-New func AppForceDisable
-Fix bugs.
-Improve performance.
-
-1.3.43 - 08/02/2021
-Fix AirVisual set API key in widget.
-Fix OWM, AirVisual library.
-Fix bugs.
-Improve performance.
-
-1.3.42 - 04/02/2021
-Fix AirVisual API key.
-
-1.3.41
-Fix shortcuts bugs.
-Improve tools performance.
-Improve Active GUI, License GUI performance.
-Improve performance.
-
-1.3.38
-Improve OpenWeatherMap performance.
-Improve AirVisual performance.
-Fix Stock widget too hight.
-Fix bugs.
-Improve performance.
-
-1.3.36 - 02/02/2021
-Improve quote performance.
-Fix bugs.
-Improve performance.
-
-1.3.34 - 31/01/2021
-Improve quote performance.
-Fix bugs.
-Improve performance.
-
-1.3.32
-Add AQI widget func
-
-1.2.29 - 27/01/2021
-Update license can active by license key
-Update license func
-Add read changelog func
-Fix bugs.
-Improve performance.
-
-1.1.26
-Fix stock clipput
-
-1.1.25
-Fix stock server
-
