@@ -1,3 +1,8 @@
+1.6.106 - 25/11/2021
+Change CapsLock icon state
+Fix bugs (Finance...)
+Improve performance
+
 1.6.104 - 15/10/2021
 New app: Cleaner
 New featured: Disable PDF thumb. in Tools
