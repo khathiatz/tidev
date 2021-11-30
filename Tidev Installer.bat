@@ -1,7 +1,7 @@
 @echo off&color 0f&mode con: cols=90 lines=29 
 cls
 pushd "%~dp0"
-title Tidev Installer
+title Tidev Installer v1.0.2 - Keep this windows running
 fltmc >nul 2>&1 || (
  echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\tidevgetadmin.vbs"
 	echo UAC.ShellExecute "%~fs0", "", "", "runas", 1 >> "%temp%\tidevgetadmin.vbs"
@@ -20,7 +20,7 @@ GOTO exit
 
 :InstallWindows
 cls
-echo Tidev Installer v1.0.1
+echo Tidev Installer
 echo.
 echo.
 echo Author: Nguyen Kha Thi
@@ -34,7 +34,7 @@ echo -----------------------------------------------------
 echo Please do NOT press anything during the installation.
 echo -----------------------------------------------------
 echo.
-timeout 3
+timeout 2
 
 cls
 echo Tidev Installer
@@ -128,7 +128,7 @@ echo.
 echo Thank you for trusting us.
 echo https://tidevapp.wordpress.com
 echo.
-timeout 5
+timeout 3
 del "%HomeDrive%\Program Files\Tidev\Tidev Installer.bat"
 GOTO exit
 
@@ -147,7 +147,6 @@ echo Contact us to fix problem
 echo https://tidevapp.wordpress.com
 echo.
 timeout 5
-start https://tidevapp.wordpress.com
 GOTO exit
 
 :Exit
