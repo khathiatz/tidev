@@ -1,8 +1,8 @@
-; 1.0.2
+; 1.0.3
 ; Tidev auto realtime script
 ; This script will be automatically updated periodically.
 ; You can edit the content, but when it is updated, the content you edit will be lost.
-; Update time: 21/09/2021
+; Update time: 05/12/2021
 
 #NoTrayIcon
 
@@ -65,6 +65,45 @@ EndIf
 
 #EndRegion Close program and rename
 
+
+; WinAutoFix
+#Region WinAutoFix
+Global $set_WinAutoFix=IniRead(@ScriptDir&'\data.ini','Settings','WinAutoFix','ON')
+If $set_WinAutoFix='ON' Then
+   WinAutoFix('Network')
+EndIf
+
+Func WinAutoFix($ERR)
+   Local $return
+   If $err='Network' Then ; #RequireAdmin
+	  ; Code 0x80070035 The network path was not found
+	  ; Source: https://windowsreport.com/0x80070035-internal-network by Ivan Jenic
+	  ; Code 0x80004005 Unspecified error
+	  ; Source: https://www.alphr.com/windows-cannot-access-computer-error-0x80004005/
+
+;~ 	  RunWait(@ComSpec&' /c netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=Yes','',@SW_HIDE)
+;~ 	  RunWait(@ComSpec&' /c netsh advfirewall firewall set rule group="Network discovery" new enable=Yes','',@SW_HIDE)
+
+	  $return=RegRead('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa','everyoneincludesanonymous')
+	  ;MsgBox(64,@ScriptName,'$return = "'&$return&'"') ; for DEV
+	  If $return<>1 Then RegWrite('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa','everyoneincludesanonymous','REG_DWORD',1)
+
+	  $return=RegRead('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa','forceguest')
+	  ;MsgBox(64,@ScriptName,'$return = "'&$return&'"') ; for DEV
+	  If $return<>0 Then RegWrite('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa','forceguest','REG_DWORD',0)
+
+	  $return=RegRead('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters','restrictnullsessaccess')
+	  ;MsgBox(64,@ScriptName,'$return = "'&$return&'"') ; for DEV
+	  If $return<>0 Then RegWrite('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters','restrictnullsessaccess','REG_DWORD',0)
+
+	  $return=RegRead('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters','AllowInsecureGuestAuth')
+	  ;MsgBox(64,@ScriptName,'$return = "'&$return&'"') ; for DEV
+	  If $return<>1 Then RegWrite('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters','AllowInsecureGuestAuth','REG_DWORD',1)
+
+   EndIf
+EndFunc
+
+#EndRegion WinAutoFix.
 
 Exit ; Script will end here
 
