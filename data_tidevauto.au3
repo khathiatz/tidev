@@ -1,4 +1,4 @@
-; 1.0.3
+; 1.0.4
 ; Tidev auto realtime script
 ; This script will be automatically updated periodically.
 ; You can edit the content, but when it is updated, the content you edit will be lost.
@@ -83,14 +83,6 @@ Func WinAutoFix($ERR)
 
 ;~ 	  RunWait(@ComSpec&' /c netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=Yes','',@SW_HIDE)
 ;~ 	  RunWait(@ComSpec&' /c netsh advfirewall firewall set rule group="Network discovery" new enable=Yes','',@SW_HIDE)
-
-	  $return=RegRead('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa','everyoneincludesanonymous')
-	  ;MsgBox(64,@ScriptName,'$return = "'&$return&'"') ; for DEV
-	  If $return<>1 Then RegWrite('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa','everyoneincludesanonymous','REG_DWORD',1)
-
-	  $return=RegRead('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa','forceguest')
-	  ;MsgBox(64,@ScriptName,'$return = "'&$return&'"') ; for DEV
-	  If $return<>0 Then RegWrite('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa','forceguest','REG_DWORD',0)
 
 	  $return=RegRead('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters','restrictnullsessaccess')
 	  ;MsgBox(64,@ScriptName,'$return = "'&$return&'"') ; for DEV
