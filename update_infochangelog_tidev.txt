@@ -1,3 +1,9 @@
+1.6.112 - 12/12/2021
+Improve Backup Func
+Add WinAutoFix script
+Fix bugs
+Improve performance
+
 1.6.106 - 25/11/2021
 Change CapsLock icon state
 Fix bugs (Finance...)
