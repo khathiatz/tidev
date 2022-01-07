@@ -1,3 +1,10 @@
+1.7.120 - 30/12/2021
+Add Func make network profile alway is Private
+Add Func make alway share this PC on LAN
+Add func change tray icon by event
+Fix bugs
+Improve performance
+
 1.6.112 - 12/12/2021
 Improve Backup Func
 Add WinAutoFix script
@@ -9,41 +16,4 @@ Change CapsLock icon state
 Fix bugs (Finance...)
 Improve performance
 
-1.6.104 - 15/10/2021
-New app: Cleaner
-New featured: Disable PDF thumb. in Tools
-TempDirCleaner will be deleted
-Fix bugs (IsFile, Widget API, Telegram bot...)
-Improve performance
 
-1.6.100 - 21/09/2021
-Update TidevAutoScript v1.0.1
-Add ShellMenuView app
-Improve license func.
-Add more backup slot.
-Fix widget wearther, BitLocker access
-Fix bugs.
-Improve performance.
-
-1.6.93 - 04/09/2021
-Fix bugs.
-Improve performance.
-
-1.6.92 - 30/08/2021
-Improve report performance
-Fix bugs.
-Improve performance.
-
-1.6.88 - 16/08/2021
-Add new Telegram command (GetUsageNetwork).
-Improve TelegramCommand performance.
-Improve T-Finance performance.
-Fix Update Func bug
-Fix bugs.
-Improve performance.
-
-1.6.81 - 19/06/2021
-Add Telegram bot command func
-Add AntiCrash options
-Fix bugs.
-Improve performance.
