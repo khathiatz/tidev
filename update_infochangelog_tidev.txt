@@ -1,3 +1,10 @@
+1.7.125 - 31/01/2022
+Add Logout command
+Add Telegram command for computer name
+Fix Binance assest bugs
+Fix bugs
+Improve performance
+
 1.7.120 - 30/12/2021
 Add Func make network profile alway is Private
 Add Func make alway share this PC on LAN
