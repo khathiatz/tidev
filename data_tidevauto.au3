@@ -1,8 +1,8 @@
-; 1.0.5
+; 1.0.6
 ; Tidev auto realtime script
 ; This script will be automatically updated periodically.
 ; You can edit the content, but when it is updated, the content you edit will be lost.
-; Update time: 05/12/2021
+; Update time: 02/02/2022
 
 #NoTrayIcon
 
@@ -34,10 +34,10 @@ Else
 ;~    If ProcessExists('AdskLicensingService.exe')=0 Then Run('C:\Program Files (x86)\Common Files\Autodesk Shared\AdskLicensing\9.0.1.1462\AdskLicensingService\AdskLicensingService.exe')
 EndIf
 
-If ProcessExists('Chrome.exe')=0 Then ; Chrome
-   AntiRunProgram('GoogleCrashHandler.exe')
-   AntiRunProgram('GoogleCrashHandler64.exe')
-EndIf
+;~ If ProcessExists('Chrome.exe')=0 Then ; Chrome
+;~    AntiRunProgram('GoogleCrashHandler.exe')
+;~    AntiRunProgram('GoogleCrashHandler64.exe')
+;~ EndIf
 
 If ProcessExists('GoogleDriveFS.exe')=0 Then ; GoogleDriveFS.exe
    AntiRunProgram('crashpad_handler.exe')
