@@ -2,7 +2,7 @@
 ; Tidev auto realtime script
 ; This script will be automatically updated periodically.
 ; You can edit the content, but when it is updated, the content you edit will be lost.
-; Update time: 02/02/2022
+; Update time: 09/02/2022
 
 #NoTrayIcon
 
