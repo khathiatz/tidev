@@ -1,4 +1,4 @@
-; 1.0.6
+; 1.0.7
 ; Tidev auto realtime script
 ; This script will be automatically updated periodically.
 ; You can edit the content, but when it is updated, the content you edit will be lost.
@@ -83,6 +83,14 @@ Func WinAutoFix($ERR)
 
 ;~ 	  RunWait(@ComSpec&' /c netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=Yes','',@SW_HIDE)
 ;~ 	  RunWait(@ComSpec&' /c netsh advfirewall firewall set rule group="Network discovery" new enable=Yes','',@SW_HIDE)
+
+	  ; Fix error 0x0000011b for LAN printer #RequireAdmin
+	  $return=RegRead('HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Print','RpcAuthnLevelPrivacyEnabled') ; Default = not set
+	  ;ConsoleWrite('$return = '&$return&@CRLF)
+	  If $return<>0 Or $return='' Then
+		 RegWrite('HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Print','RpcAuthnLevelPrivacyEnabled','REG_DWORD',0)
+		 ConsoleWrite('RegWrite RpcAuthnLevelPrivacyEnabled = 0 (ERROR='&@error&')'&@CRLF)
+	  EndIf
 
 	  $return=RegRead('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters','restrictnullsessaccess') ; Default = 1
 	  ;MsgBox(64,@ScriptName,'$return = "'&$return&'"') ; for DEV
