@@ -1,3 +1,9 @@
+1.7.126
+Auto login with default account
+Command can use without login
+Fix bugs
+Improve performance
+
 1.7.125 - 31/01/2022
 Add Logout command
 Add Telegram command for computer name
