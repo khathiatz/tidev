@@ -1,3 +1,8 @@
+1.7.134
+Improve Finance crypto performance
+Fix bugs
+Improve performance
+
 1.7.127
 Fix Tools bug
 
