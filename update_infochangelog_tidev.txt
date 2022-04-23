@@ -1,4 +1,4 @@
-1.7.136
+1.7.145
 Improve Finance crypto performance
 Fix bugs
 Improve performance
