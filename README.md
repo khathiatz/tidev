@@ -1,4 +1,5 @@
 # Tidev
+![GitHub Light](https://github.com/github-light.png#gh-dark-mode-only)
 Tidev app - Make your jobs easier !
 
 Tidev là gì?
@@ -37,6 +38,6 @@ You can make a donation from yourself or your organization in a convenient way f
 
 After donating, you can send the content of the transfer or hash number in the "Tidev tray/ Settings/ About/ Upgrade license/ Discount code" to receive the PRO license as a thank you.
 
-Sau khi donate, bạn có thể gửi nội dung chuyển khoảng hoặc số hash trong mục "Tidev tray/ Settings/ About/ Upgrade license/ Discount code" để nhận giấy phép PRO như lời cảm ơn dành cho bạn.
+*Sau khi donate, bạn có thể gửi nội dung chuyển khoảng hoặc số hash trong mục "Tidev tray/ Settings/ About/ Upgrade license/ Discount code" để nhận giấy phép PRO như lời cảm ơn dành cho bạn.*
 
 Thank you!
