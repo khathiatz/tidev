@@ -27,7 +27,8 @@ https://tidevapp.wordpress.com
 Donate here
 
 You can make a donation from yourself or your organization in a convenient way for you:
-- [Bitcoin.org](https://bitcoin.org) ([BTC and all available assets](https://stellar.expert/explorer/public/account/GDOB5BAYE25LLEU6CCQCGGJB2ILUEIMA2DTQRGCVHX3XX2ATGMXP5ERH))
+- <img src="crypto_logo/16/cl_btc_16.png" width="16"> Bitcoin (BTC): [16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T]()
+- <img src="crypto_logo/16/cl_btc_16.png" width="16"> Bitcoin (SegWit): [bc1qrkaqv0uft5n5w4a7qeyt2uqex3hze6eqg26l8h]()
 - [Stellar.org](https://stellar.org) ([XLM and all available assets](https://stellar.expert/explorer/public/account/GDOB5BAYE25LLEU6CCQCGGJB2ILUEIMA2DTQRGCVHX3XX2ATGMXP5ERH))
 
    <img src="Images/code-alipay.jpg" width="300">
