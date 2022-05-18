@@ -29,10 +29,10 @@ Donate here
 You can make a donation from yourself or your organization in a convenient way for you:
 - <img src="crypto_logo/16/cl_btc_16.png" width="16"> Bitcoin (BTC): [16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T](https://www.blockchain.com/btc/address/16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T)
 - <img src="crypto_logo/16/cl_btc_16.png" width="16"> Bitcoin (SegWit): [bc1qrkaqv0uft5n5w4a7qeyt2uqex3hze6eqg26l8h](https://www.blockchain.com/btc/address/bc1qrkaqv0uft5n5w4a7qeyt2uqex3hze6eqg26l8h)
-- <img src="crypto_logo/16/cl_eth_16.png" width="16"> Ethereum (ERC20): [0xac5520f67b1599c64ee5fdcd39442e2e33290e35](https://etherscan.io/address/0xac5520f67b1599c64ee5fdcd39442e2e33290e35)
-- [Stellar.org](https://stellar.org) ([XLM and all available assets](https://stellar.expert/explorer/public/account/GDOB5BAYE25LLEU6CCQCGGJB2ILUEIMA2DTQRGCVHX3XX2ATGMXP5ERH))
-
-   <img src="Images/code-alipay.jpg" width="300">
+- <img src="crypto_logo/16/cl_eth_16.png" width="16"> <img src="crypto_logo/16/cl_usdt_16.png" width="16"> Ethereum (ERC20): [0xac5520f67b1599c64ee5fdcd39442e2e33290e35](https://etherscan.io/address/0xac5520f67b1599c64ee5fdcd39442e2e33290e35)
+- <img src="crypto_logo/16/cl_bnb_16.png" width="16"> <img src="crypto_logo/16/cl_busd_16.png" width="16"> BNB Beacon Chain (BEP2): [bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23](https://bscscan.com/search?f=0&q=bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23)  MEMO: [105403109]()
+- <img src="crypto_logo/16/cl_trx_16.png" width="16"> <img src="crypto_logo/16/cl_usdt_16.png" width="16"> Tron network (TRC20): [TX4rJbTJpJSb4GcRTZHjUUeh8AcoW6eVde](https://tronscan.org/#/address/TX4rJbTJpJSb4GcRTZHjUUeh8AcoW6eVde)
+- <img src="crypto_logo/16/cl_xlm_16.png" width="16"> Stellar Lumens (XLM): [GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4A](https://stellarchain.io/address/GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4A)  MEMO: [477508745]()
 
 Please send all other donation offers to [khathiatz@gmail.com](mailto:khathiatz@gmail.com).
 
