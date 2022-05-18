@@ -24,8 +24,6 @@ https://tidevapp.wordpress.com
 
 # Donation
 
-Donate here
-
 You can make a donation from yourself or your organization in a convenient way for you:
 - <img src="crypto_logo/16/cl_mbbank_16.png" width="16"> NH Quân Đội (MB Bank): [7170158326609](https://www.mbbank.com.vn/) Nội dung chuyển khoảng là email của bạn (VD: tenemail-gmail.com).
 - <img src="crypto_logo/16/cl_btc_16.png" width="16"> Bitcoin (BTC): [16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T](https://www.blockchain.com/btc/address/16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T)
@@ -34,6 +32,7 @@ You can make a donation from yourself or your organization in a convenient way f
 - <img src="crypto_logo/16/cl_bnb_16.png" width="16"> <img src="crypto_logo/16/cl_busd_16.png" width="16"> BNB Beacon Chain (BEP2): [bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23](https://bscscan.com/search?f=0&q=bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23)  MEMO: [105403109](/)
 - <img src="crypto_logo/16/cl_trx_16.png" width="16"> <img src="crypto_logo/16/cl_usdt_16.png" width="16"> Tron network (TRC20): [TX4rJbTJpJSb4GcRTZHjUUeh8AcoW6eVde](https://tronscan.org/#/address/TX4rJbTJpJSb4GcRTZHjUUeh8AcoW6eVde)
 - <img src="crypto_logo/16/cl_xrp_16.png" width="16"> Ripple (XRP): [rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh](https://xrpscan.com/account/rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh)  MEMO: [104822835](/)
+- <img src="crypto_logo/16/cl_xmr_16.png" width="16"> Monero (XMR): [89MisttjRrv9oPmVedVdGNFkHPvgR7ngQc3eJzS6Fo1rZE4PinqxTFSFkaoAHjpaMJUqtPPwoP8wP4AcDLwWQNS68LHLikE](https://xmrchain.net/search?value=89MisttjRrv9oPmVedVdGNFkHPvgR7ngQc3eJzS6Fo1rZE4PinqxTFSFkaoAHjpaMJUqtPPwoP8wP4AcDLwWQNS68LHLikE)
 - <img src="crypto_logo/16/cl_xlm_16.png" width="16"> Stellar Lumens (XLM): [GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4A](https://stellarchain.io/address/GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4A)  MEMO: [477508745](/) (recommended, low fees)
 
 After donating, you can send the content of the transfer or hash number in the "Tidev tray/ Settings/ About/ Upgrade license/ Discount code" to receive the PRO license as a thank you.
