@@ -29,6 +29,7 @@ https://tidevapp.wordpress.com
 
 - <img src="crypto_logo/16/cl_mbbank_16.png" width="16"> NH Quân Đội (MB Bank): [7170158326609](https://www.mbbank.com.vn/) Nội dung chuyển khoảng là email của bạn (VD: tenemail-gmail.com).
 - <img src="crypto_logo/16/cl_binance_16.png" width="16"> Binance Pay ID: [89804319](https://www.binance.com)
+  <img src="crypto_logo/donate_bitcoin.jpg">
 - <img src="crypto_logo/16/cl_btc_16.png" width="16"> Bitcoin (BTC): [16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T](https://www.blockchain.com/btc/address/16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T)
 - <img src="crypto_logo/16/cl_xmr_16.png" width="16"> Monero (XMR): [89MisttjRrv9oPmVedVdGNFkHPvgR7ngQc3eJzS6Fo1rZE4PinqxTFSFkaoAHjpaMJUqtPPwoP8wP4AcDLwWQNS68LHLikE](https://xmrchain.net/search?value=89MisttjRrv9oPmVedVdGNFkHPvgR7ngQc3eJzS6Fo1rZE4PinqxTFSFkaoAHjpaMJUqtPPwoP8wP4AcDLwWQNS68LHLikE)
 - <img src="crypto_logo/16/cl_xlm_16.png" width="16"> Stellar Lumens (XLM): [GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4A](https://stellarchain.io/address/GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4A)  MEMO: [477508745](/) (recommended, low fees)
