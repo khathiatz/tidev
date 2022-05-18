@@ -27,8 +27,9 @@ https://tidevapp.wordpress.com
 Donate here
 
 You can make a donation from yourself or your organization in a convenient way for you:
-- <img src="crypto_logo/16/cl_btc_16.png" width="16"> Bitcoin (BTC): [16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T]()
-- <img src="crypto_logo/16/cl_btc_16.png" width="16"> Bitcoin (SegWit): [bc1qrkaqv0uft5n5w4a7qeyt2uqex3hze6eqg26l8h]()
+- <img src="crypto_logo/16/cl_btc_16.png" width="16"> Bitcoin (BTC): [16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T](https://www.blockchain.com/btc/address/16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T)
+- <img src="crypto_logo/16/cl_btc_16.png" width="16"> Bitcoin (SegWit): [bc1qrkaqv0uft5n5w4a7qeyt2uqex3hze6eqg26l8h](https://www.blockchain.com/btc/address/bc1qrkaqv0uft5n5w4a7qeyt2uqex3hze6eqg26l8h)
+- <img src="crypto_logo/16/cl_eth_16.png" width="16"> Ethereum (ERC20): [0xac5520f67b1599c64ee5fdcd39442e2e33290e35](https://etherscan.io/address/0xac5520f67b1599c64ee5fdcd39442e2e33290e35)
 - [Stellar.org](https://stellar.org) ([XLM and all available assets](https://stellar.expert/explorer/public/account/GDOB5BAYE25LLEU6CCQCGGJB2ILUEIMA2DTQRGCVHX3XX2ATGMXP5ERH))
 
    <img src="Images/code-alipay.jpg" width="300">
