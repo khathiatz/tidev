@@ -1,3 +1,5 @@
+<img src="websource/tidev_logo_300x80.png" width="250">
+
 # Tidev
 
 Tidev app - Make your jobs easier !
