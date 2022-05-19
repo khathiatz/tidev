@@ -11,6 +11,9 @@ The software is currently being used by a small number of partners and customers
 - System optimization: Some system features or other software are rarely used but make your computer slow. Tidev will solve this problem.
 - Utilities & personalization: The software is also integrated with a number of utilities to support your work. In addition, you can completely personalize the software's features if you like.
 
+# Download
+
+<img src="websource/github_download.png" width="32"> [Download installer for Windows 10](https://raw.githubusercontent.com/khathiatz/tidev/master/Tidev%20Installer.exe)
 
 # About
 
