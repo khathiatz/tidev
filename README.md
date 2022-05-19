@@ -2,23 +2,23 @@
 
 Tidev app - Make your jobs easier !
 
-Tidev là gì?
-Tidev là phần mềm đa năng, giúp hỗ trợ điều khiển, tối ưu hệ thống, cài đặt nhanh trên Windows 10.
-Phần mềm hiện đang được sử dụng bởi một số lượng nhỏ các đối tác, khách hàng thông qua giấy phép sử dụng (bản quyền) và KHÔNG khuyên dùng với các khách hàng chưa biết qua Tidev hay chưa có giấy phép sử dụng. Chúng tôi từ chối giải quyết mọi sự cố đáng tiếc do phần mềm gây ra nếu bạn không có giấy phép sử dụng.
-Tidev được lập trình bởi Nguyễn Khả Thi, tại Việt Nam.
+Tidev is a versatile software that supports control, system optimization, and quick installation on Windows 10.
 
-Tidev có thể làm gì?
-- Tiết kiệm thời gian: Một số thiết lập trên máy tính được tối ưu chỉ với vài thao tác đơn giản.
-- Tối ưu hệ thống: Một số tính năng của hệ thống hay phần mềm khác ít được sử dụng nhưng lại làm máy tính bạn chậm chạp. Tidev sẽ giải quyết vấn đề này.
-- Tiện ích & cá nhân hóa: Phần mềm còn được tích hợp một số tiện ích hỗ trợ cho công việc của bạn. Ngoài ra bạn hoàn toàn có thể cá nhân hóa tính năng của phần mềm nếu thích.
+The software is currently being used by a small number of partners and customers through a license to use (copyright) and is NOT recommended for customers who do not know about Tidev or do not have a license to use it. We refuse to deal with any unfortunate problems caused by the software if you do not have a license to use it.
 
-Chúng tôi.
+# Function
+- Save time: Some settings on your computer are optimized with just a few simple steps.
+- System optimization: Some system features or other software are rarely used but make your computer slow. Tidev will solve this problem.
+- Utilities & personalization: The software is also integrated with a number of utilities to support your work. In addition, you can completely personalize the software's features if you like.
 
-Tidev được lập trình và trực tiếp quản lý bởi Nguyễn Khả Thi.
 
-Địa chỉ: Bến Tre, Việt Nam.
+# About
 
-Email: khathi.nkt@gmail.com
+Tidev is programmed and directly managed by Kha Thi Nguyen.
+
+Address: Ben Tre, Vietnam.
+
+Email: khathiatz@gmail.com
 
 https://tidevapp.wordpress.com
 
@@ -27,7 +27,10 @@ https://tidevapp.wordpress.com
 
 [1] Choose the donation method that suits you and make the transfer:
 
+*(Bạn hãy chọn một phương thức quyên góp phù hợp với mình, sau đó thực hiện chuyển khoảng)*
+
 - <img src="crypto_logo/16/cl_mbbank_16.png" width="16"> NH Quân Đội (MB Bank): [7170158326609](https://www.mbbank.com.vn/) Nội dung chuyển khoảng là email của bạn (VD: tenemail-gmail.com).
+
 - <img src="crypto_logo/16/cl_binance_16.png" width="16"> Binance Pay ID: [89804319](https://www.binance.com)
   
   <img src="crypto_logo/donate_binancepay.jpg" width="300">
@@ -49,8 +52,8 @@ https://tidevapp.wordpress.com
 
 
 
-[2] After the transfer, save the transfer proof information such as the transfer photo or the hash number. Next, send that information to email [khathiatz@gmail.com](mailto:khathiatz@gmail.com) with the subject line "Donate Tidev". We will check and send you Tidev activation license as a thank you. You can also request sample Autoit API source code from AirVisual, Binance, Dropbox, Github, Open Weather Map, Telegram.
+[2] After the transfer, save the transfer proof information such as the transfer photo or the hash number. Next, send that information to email [khathiatz@gmail.com](mailto:khathiatz@gmail.com) with the subject line "Donate Tidev". We will check and return you Tidev PRO activation license with any donation as a thank you. With donation ≥20USD You can also request sample Autoit API source code of AirVisual, Binance, Dropbox, Github, Open Weather Map, Telegram.
 
-*(Sau khi chuyển khoảng, bạn hãy lưu lại thông tin chứng minh chuyển khoảng như ảnh chụp chuyển tiền hoặc số hash. Tiếp theo, gửi thông tin đó đến email [khathiatz@gmail.com](mailto:khathiatz@gmail.com) với tiêu đề "Donate Tidev". Chúng tôi sẽ kiểm tra và gửi trả bạn giấy phép kích hoạt Tidev như lời cảm ơn. Bạn cũng có thể yêu cầu mã nguồn Autoit API mẫu của AirVisual, Binance, Dropbox, Github, Open Weather Map, Telegram.)*
+*(Sau khi chuyển khoảng, bạn hãy lưu lại thông tin chứng minh chuyển khoảng như ảnh chụp chuyển tiền hoặc số hash. Tiếp theo, gửi thông tin đó đến email [khathiatz@gmail.com](mailto:khathiatz@gmail.com) với tiêu đề "Donate Tidev". Chúng tôi sẽ kiểm tra và gửi trả bạn giấy phép kích hoạt Tidev PRO với bất kỳ mức quyên góp nào như lời cảm ơn. Với mức quyên góp ≥20USD Bạn cũng có thể yêu cầu mã nguồn Autoit API mẫu của AirVisual, Binance, Dropbox, Github, Open Weather Map, Telegram.)*
 
 Thank you!
