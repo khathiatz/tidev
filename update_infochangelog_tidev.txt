@@ -1,5 +1,10 @@
-1.7.145
+1.8.164
+Improve T-Finance UI, T-Widget UI
+Set hotkey in "data.ini"
+Telegram command expire after 10 minutes
 Improve Finance crypto performance
+Crypto widget add CFGIndex symbol
+GUI can resize with mouse
 Fix bugs
 Improve performance
 
