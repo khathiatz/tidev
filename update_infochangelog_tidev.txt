@@ -1,4 +1,4 @@
-1.8.164
+1.8.165
 Improve T-Finance UI, T-Widget UI
 Set hotkey in "data.ini"
 Telegram command expire after 10 minutes
