@@ -1,1 +1,1 @@
-{"usdvnd":23205,"timestamp":1655107983}
+{"usdvnd":23216,"timestamp":1655194383}
