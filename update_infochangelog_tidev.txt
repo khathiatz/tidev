@@ -1,3 +1,8 @@
+1.8.170
+Add Crypto highlight widget
+Fix bugs
+Improve performance
+
 1.8.165
 Improve T-Finance UI, T-Widget UI
 Set hotkey in "data.ini"
