@@ -1,1 +1,7 @@
-{"usdvnd":23374,"timestamp":1657597217}
+{"usdvnd":0,"timestamp":{
+  "success":false,
+  "error":{
+    "code":106,
+    "info":"You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. "
+  }
+}}
