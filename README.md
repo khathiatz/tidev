@@ -23,7 +23,7 @@ Tidev is programmed and directly managed by Kha Thi Nguyen.
 
 Address: Ben Tre, Vietnam.
 
-Email: khathiatz@gmail.com
+Email: khathinkt@icloud.com
 
 https://tidevapp.wordpress.com
 
@@ -34,7 +34,7 @@ https://tidevapp.wordpress.com
 
 *(Bạn hãy chọn một phương thức quyên góp phù hợp với mình, sau đó thực hiện chuyển khoảng)*
 
-- <img src="crypto_logo/16/cl_mbbank_16.png" width="16"> NH Quân Đội (MB Bank): [7170158326609](https://www.mbbank.com.vn/) Nội dung chuyển khoảng là email của bạn (VD: tenemail-gmail.com).
+- <img src="crypto_logo/16/cl_acbank_16.png" width="16"> NH Á Châu (ACB): [11339267](https://www.acb.com.vn/) Nội dung chuyển khoảng là email của bạn (VD: tenemail-gmail.com).
 
 - <img src="crypto_logo/16/cl_binance_16.png" width="16"> Binance Pay ID: [89804319](https://www.binance.com)
   
@@ -57,8 +57,8 @@ https://tidevapp.wordpress.com
 
 
 
-[2] After the transfer, save the transfer proof information such as the transfer photo or the hash number. Next, send that information to email [khathiatz@gmail.com](mailto:khathiatz@gmail.com) with the subject line "Donate Tidev". We will check and return you Tidev PRO activation license with any donation as a thank you. With donation ≥20USD You can also request sample Autoit API source code of AirVisual, Binance, Dropbox, Github, Open Weather Map, Telegram.
+[2] After the transfer, save the transfer proof information such as the transfer photo or the hash number. Next, send that information to email [khathinkt@icloud.com](mailto:khathinkt@icloud.com) with the subject line "Donate Tidev". We will check and return you Tidev PRO activation license with any donation as a thank you. With donation ≥20USD You can also request sample Autoit API source code of AirVisual, Binance, Dropbox, Github, Open Weather Map, Telegram.
 
-*(Sau khi chuyển khoảng, bạn hãy lưu lại thông tin chứng minh chuyển khoảng như ảnh chụp chuyển tiền hoặc số hash. Tiếp theo, gửi thông tin đó đến email [khathiatz@gmail.com](mailto:khathiatz@gmail.com) với tiêu đề "Donate Tidev". Chúng tôi sẽ kiểm tra và gửi trả bạn giấy phép kích hoạt Tidev PRO với bất kỳ mức quyên góp nào như lời cảm ơn. Với mức quyên góp ≥20USD Bạn cũng có thể yêu cầu mã nguồn Autoit API mẫu của AirVisual, Binance, Dropbox, Github, Open Weather Map, Telegram.)*
+*(Sau khi chuyển khoảng, bạn hãy lưu lại thông tin chứng minh chuyển khoảng như ảnh chụp chuyển tiền hoặc số hash. Tiếp theo, gửi thông tin đó đến email [khathinkt@icloud.com](mailto:khathinkt@icloud.com) với tiêu đề "Donate Tidev". Chúng tôi sẽ kiểm tra và gửi trả bạn giấy phép kích hoạt Tidev PRO với bất kỳ mức quyên góp nào như lời cảm ơn. Với mức quyên góp ≥20USD Bạn cũng có thể yêu cầu mã nguồn Autoit API mẫu của AirVisual, Binance, Dropbox, Github, Open Weather Map, Telegram.)*
 
 Thank you!
