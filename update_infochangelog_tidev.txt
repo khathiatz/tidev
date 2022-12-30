@@ -1,3 +1,8 @@
+1.9.210 (30/12/2022)
+MarketBoard func
+Fix bugs
+Improve performance
+
 1.8.185
 Oil update change to everyday
 Add date calc
@@ -32,39 +37,4 @@ Crypto widget add CFGIndex symbol
 GUI can resize with mouse
 Fix bugs
 Improve performance
-
-1.7.127
-Fix Tools bug
-
-1.7.126
-Auto login with default account
-Command can use without login
-Fix bugs
-Improve performance
-
-1.7.125 - 31/01/2022
-Add Logout command
-Add Telegram command for computer name
-Fix Binance assest bugs
-Fix bugs
-Improve performance
-
-1.7.120 - 30/12/2021
-Add Func make network profile alway is Private
-Add Func make alway share this PC on LAN
-Add func change tray icon by event
-Fix bugs
-Improve performance
-
-1.6.112 - 12/12/2021
-Improve Backup Func
-Add WinAutoFix script
-Fix bugs
-Improve performance
-
-1.6.106 - 25/11/2021
-Change CapsLock icon state
-Fix bugs (Finance...)
-Improve performance
-
 
