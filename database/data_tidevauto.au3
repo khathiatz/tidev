@@ -1,10 +1,12 @@
-; 1.0.7
+; 1.0.8
 ; Tidev auto realtime script
 ; This script will be automatically updated periodically.
 ; You can edit the content, but when it is updated, the content you edit will be lost.
 ; Update time: 09/02/2022
 
 #NoTrayIcon
+;~ #RequireAdmin
+
 
 
 ; Antirun (close) program
@@ -15,7 +17,39 @@ AntiRunProgram('armsvc.exe')
 AntiRunProgram('msoia.exe')
 AntiRunProgram('UpdaterStartupUtility.exe')
 AntiRunProgram('AAM Updates Notifier.exe')
+AntiRunProgram('jusched.exe')
 #EndRegion Antirun (close) program
+
+
+; FirewallAutoBlock program
+#Region FirewallBlock program
+; Adobe
+FirewallAutoBlock(@HomeDrive&'\Program Files (x86)\Adobe\Acrobat 11.0\Acrobat\Acrobat.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files (x86)\Common Files\Adobe\ARM\1.0\armsvc.exe')
+; Autodesk
+FirewallAutoBlock(@HomeDrive&'\Program Files\Autodesk\AutoCAD 2019\acad.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files (x86)\Autodesk\Autodesk Desktop App\AcWebBrowser\acwebbrowser.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files (x86)\Autodesk\Autodesk Desktop App\ADPClientService.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files (x86)\Autodesk\Autodesk Desktop App\AutodeskDesktopApp.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files (x86)\Autodesk\Content Service\Connect.Service.ContentService.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files (x86)\Common Files\Autodesk Shared\Adlm\R17\LMU.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files\Common Files\Autodesk Shared\AdLM\R12\LMU.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files\Common Files\Autodesk Shared\AdLM\R7\LMU.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files\Common Files\Autodesk Shared\AdLM\R9\LMU.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files\Common Files\Autodesk Shared\CLM\V3\MSVC14\cliccore\acwebbrowser.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files\Common Files\Macrovision Shared\FLEXnet Publisher\FNPLicensingService64.exe')
+FirewallAutoBlock(@UserProfileDir&'\Autodesk\Genuine Service\GenuineService.exe')
+; Office
+FirewallAutoBlock(@HomeDrive&'\Program Files\Microsoft Office\Office15\WORD.EXE')
+FirewallAutoBlock(@HomeDrive&'\Program Files\Microsoft Office\Office15\EXCEL.EXE')
+FirewallAutoBlock(@HomeDrive&'\Program Files\Microsoft Office\Office15\POWERPNT.EXE')
+; Orther
+FirewallAutoBlock(@HomeDrive&'\Program Files (x86)\MathType\MathType.exe')
+FirewallAutoBlock(@HomeDrive&'\Program Files (x86)\Common Files\Java\Java Update\jusched.exe')
+FirewallAutoBlock(@HomeDrive&'\Windows\System32\spool\drivers\x64\3\fppdis4.exe')
+FirewallAutoBlock(@HomeDrive&'\Windows\System32\spool\drivers\x64\3\fpphelp4.exe')
+
+#EndRegion
 
 
 ; Close program X if Y not run
@@ -89,7 +123,7 @@ Func WinAutoFix($ERR)
 	  ;ConsoleWrite('$return = '&$return&@CRLF)
 	  If $return<>0 Or $return='' Then
 		 RegWrite('HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Print','RpcAuthnLevelPrivacyEnabled','REG_DWORD',0)
-		 ConsoleWrite('RegWrite RpcAuthnLevelPrivacyEnabled = 0 (ERROR='&@error&')'&@CRLF)
+;~ 		 ConsoleWrite('RegWrite RpcAuthnLevelPrivacyEnabled = 0 (ERROR='&@error&')'&@CRLF)
 	  EndIf
 
 	  $return=RegRead('HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters','restrictnullsessaccess') ; Default = 1
@@ -130,6 +164,70 @@ Func AntiRunProgram($programName)
    EndIf
    Return False
 EndFunc
+
+
+
+Func FirewallAutoBlock($file_dir)
+   Local $func='FirewallAutoBlock'
+   ConsoleWrite($func&': start'&@CRLF)
+
+   If FileExists($file_dir)=0 Then
+	  ConsoleWrite($func&': File not found "'&$file_dir&'"'&@CRLF)
+	  Return SetError(1,0,0)
+   EndIf
+;~    ConsoleWrite($func&': File process "'&$file_dir&'"'&@CRLF)
+;~    If IsAdmin()=0 Then Return
+
+
+   Local $run, $report, $cmd, $cmd_report=@TempDir&'\TidevAuto_FirewallBlock.log'
+   ; Kiểm tra có block chưa
+   $cmd='netsh advfirewall firewall show rule name="'&$file_dir&'"'
+   FileDelete($cmd_report)
+   $run=RunWait(@ComSpec&' /c '&$cmd&' > "'&$cmd_report&'"','',@SW_HIDE)
+   If @error>0 Or FileExists($cmd_report)=0 Then
+	  $errorTXT='ERR_CMD_NOT_RUN_TO_CHECK'
+	  ConsoleWrite($func&': '&$errorTXT&@CRLF)
+	  Return SetError(1,0,0)
+   EndIf
+   $report=FileReadLine($cmd_report,12)
+   FileDelete($cmd_report)
+;~    If IsAdmin()=1 Then MsgBox(64,$func,'$report= '&$report,20) ; for DEV
+;~    ConsoleWrite($func&': $report= '&$report&@CRLF)
+
+   ; Check file is blocked
+   If StringLeft($report,7)='Action:' And StringRight($report,5)='Block' Then
+	  $errorTXT='ERR_FILE_BLOCKED'
+	  ConsoleWrite($func&': '&$errorTXT&' ('&$file_dir&')'&@CRLF)
+	  Return SetError(2,0,0)
+   EndIf
+
+   ; Block file
+   $cmd='netsh advfirewall firewall delete rule name="'&$file_dir&'"' ; need Admin
+   $run=RunWait(@ComSpec&' /c '&$cmd&' > "'&$cmd_report&'"','',@SW_HIDE)
+   If @error>0 Or FileExists($cmd_report)=0 Then
+	  $errorTXT='ERR_CMD_NOT_RUN_TO_DELETE'
+	  ConsoleWrite($func&': '&$errorTXT&@CRLF)
+	  Return SetError(3,0,0)
+   EndIf
+   $report=FileRead($cmd_report)
+   FileDelete($cmd_report)
+;~    If IsAdmin()=1 Then MsgBox(64,$func,'$report= '&$report,20) ; for DEV
+   ConsoleWrite($func&': $report= '&$report&@CRLF)
+
+   $cmd='netsh advfirewall firewall add rule name="'&$file_dir&'" dir=out action=block program="'&$file_dir&'" enable=yes' ; need Admin
+   ClipPut($cmd)
+   $run=RunWait(@ComSpec&' /c '&$cmd&' > "'&$cmd_report&'"','',@SW_HIDE)
+   If @error>0 Or FileExists($cmd_report)=0 Then
+	  $errorTXT='ERR_CMD_NOT_RUN_TO_ADD'
+	  ConsoleWrite($func&': '&$errorTXT&@CRLF)
+	  Return SetError(3,0,0)
+   EndIf
+   $report=FileRead($cmd_report)
+   FileDelete($cmd_report)
+;~    If IsAdmin()=1 Then MsgBox(64,$func,'$report= '&$report,20) ; for DEV
+   ConsoleWrite($func&': $report= '&$report&@CRLF)
+EndFunc
+
 
 
 #Region NOT EDIT HERE
