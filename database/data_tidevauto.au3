@@ -1,4 +1,4 @@
-; 1.0.8
+; 1.0.9
 ; Tidev auto realtime script
 ; This script will be automatically updated periodically.
 ; You can edit the content, but when it is updated, the content you edit will be lost.
@@ -215,7 +215,6 @@ Func FirewallAutoBlock($file_dir)
    ConsoleWrite($func&': $report= '&$report&@CRLF)
 
    $cmd='netsh advfirewall firewall add rule name="'&$file_dir&'" dir=out action=block program="'&$file_dir&'" enable=yes' ; need Admin
-   ClipPut($cmd)
    $run=RunWait(@ComSpec&' /c '&$cmd&' > "'&$cmd_report&'"','',@SW_HIDE)
    If @error>0 Or FileExists($cmd_report)=0 Then
 	  $errorTXT='ERR_CMD_NOT_RUN_TO_ADD'
