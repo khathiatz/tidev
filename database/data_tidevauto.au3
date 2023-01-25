@@ -1,4 +1,4 @@
-; 1.0.9
+; 1.0.10
 ; Tidev auto realtime script
 ; This script will be automatically updated periodically.
 ; You can edit the content, but when it is updated, the content you edit will be lost.
@@ -40,7 +40,7 @@ FirewallAutoBlock(@HomeDrive&'\Program Files\Common Files\Autodesk Shared\CLM\V3
 FirewallAutoBlock(@HomeDrive&'\Program Files\Common Files\Macrovision Shared\FLEXnet Publisher\FNPLicensingService64.exe')
 FirewallAutoBlock(@UserProfileDir&'\Autodesk\Genuine Service\GenuineService.exe')
 ; Office
-FirewallAutoBlock(@HomeDrive&'\Program Files\Microsoft Office\Office15\WORD.EXE')
+FirewallAutoBlock(@HomeDrive&'\Program Files\Microsoft Office\Office15\WINWORD.EXE')
 FirewallAutoBlock(@HomeDrive&'\Program Files\Microsoft Office\Office15\EXCEL.EXE')
 FirewallAutoBlock(@HomeDrive&'\Program Files\Microsoft Office\Office15\POWERPNT.EXE')
 ; Orther
