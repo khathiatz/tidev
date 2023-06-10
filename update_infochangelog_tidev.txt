@@ -1,3 +1,10 @@
+1.9.237
+Add func H264 to H265
+Add install HEVC Video Extension
+Close Stock, Crypto func
+Fix bugs
+Improve performance
+
 1.9.227
 CPU temprature get from CoreTemp
 Fix bugs
