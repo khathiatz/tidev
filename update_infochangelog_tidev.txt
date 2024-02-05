@@ -1,5 +1,7 @@
-1.9.246
+1.9.251
+Add app FileTypesMan
 Fix BUSD, add DCDE
+Fix Ping bug longer than 4000ms
 Fix bugs
 Improve performance
 
