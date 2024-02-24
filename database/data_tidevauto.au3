@@ -41,7 +41,7 @@ FirewallAutoBlock(@HomeDrive&'\Program Files\Common Files\Macrovision Shared\FLE
 FirewallAutoBlock(@UserProfileDir&'\Autodesk\Genuine Service\GenuineService.exe')
 ; Office
 FirewallAutoBlock(@HomeDrive&'\Program Files\Microsoft Office\Office15\WINWORD.EXE')
-FirewallAutoBlock(@HomeDrive&'\Program Files\Microsoft Office\Office15\EXCEL.EXE')
+;FirewallAutoBlock(@HomeDrive&'\Program Files\Microsoft Office\Office15\EXCEL.EXE')
 FirewallAutoBlock(@HomeDrive&'\Program Files\Microsoft Office\Office15\POWERPNT.EXE')
 ; Orther
 FirewallAutoBlock(@HomeDrive&'\Program Files (x86)\MathType\MathType.exe')
