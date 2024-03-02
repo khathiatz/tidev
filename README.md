@@ -17,6 +17,9 @@ The software is currently being used by a small number of partners and customers
 
 [<img src="websource/github_download.png" width="32">](https://raw.githubusercontent.com/khathiatz/tidev/master/Tidev%20Installer.exe) [Download installer for Windows 10](https://raw.githubusercontent.com/khathiatz/tidev/master/Tidev%20Installer.exe)
 
+[<img src="websource/github_download.png" width="32">](https://raw.githubusercontent.com/khathiatz/tidev/master/Tidev%20Installer.bat) [Download script installer for Windows 10](https://raw.githubusercontent.com/khathiatz/tidev/master/Tidev%20Installer.bat)
+
+
 # About
 
 Tidev is programmed and directly managed by Kha Thi Nguyen.
