@@ -1,7 +1,9 @@
 [
 {"symbolname":"EUR/VND","source_link":"https://finance.yahoo.com/quote/EURVND%3DX/history?period1=1681800022&period2=1713422422&interval=1mo&filter=history&frequency=1mo&includeAdjustedClose=true","author":"admin"}
+{"updatetime":"2024/04/19","price":"27134","source":"Yahoo"}
 {"updatetime":"2024/04/18","price":"27119","source":"Yahoo"}
 {"updatetime":"2024/04/01","price":"26475","source":"Yahoo"}
+{"updatetime":"2023/04/19","price":"25416","source":"Yahoo"}
 {"updatetime":"2023/04/18","price":"24804","source":"Yahoo"}
 {"updatetime":"2023/04/01","price":"24802","source":"Yahoo"}
 ]
