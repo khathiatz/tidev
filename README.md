@@ -36,26 +36,10 @@ https://tidevapp.wordpress.com
 [1] Choose the donation method that suits you and make the transfer:
 
 *(Bạn hãy chọn một phương thức quyên góp phù hợp với mình, sau đó thực hiện chuyển khoảng)*
-
-- <img src="brand_logo/bl_crypto_binance_16.png" width="16"> Binance Pay ID: [89804319](https://www.binance.com)
   
-  <img src="brand_logo/donate_binancepay.jpg" width="300">
-  
-  
-- <img src="brand_logo/bl_crypto_btc_16.png" width="16"> Bitcoin (BTC): [16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T](https://www.blockchain.com/btc/address/16Bxc25RqGk5u8FNtbZD96roivrwz3eD3T)
+- <img src="brand_logo/bl_crypto_btc_16.png" width="16"> Bitcoin (BTC): [bc1q5hewzqe7t7phhssrfx8dve79l00hzr5e5usq43](https://www.blockchain.com/btc/address/bc1q5hewzqe7t7phhssrfx8dve79l00hzr5e5usq43)
 
   <img src="brand_logo/donate_bitcoin.jpg" width="300">
-
-
-- <img src="brand_logo/bl_crypto_xmr_16.png" width="16"> Monero (XMR): [89MisttjRrv9oPmVedVdGNFkHPvgR7ngQc3eJzS6Fo1rZE4PinqxTFSFkaoAHjpaMJUqtPPwoP8wP4AcDLwWQNS68LHLikE](https://xmrchain.net/search?value=89MisttjRrv9oPmVedVdGNFkHPvgR7ngQc3eJzS6Fo1rZE4PinqxTFSFkaoAHjpaMJUqtPPwoP8wP4AcDLwWQNS68LHLikE)
-
-  <img src="brand_logo/donate_monero.jpg" width="300">
-
-
-- <img src="brand_logo/bl_crypto_xlm_16.png" width="16"> Stellar Lumens (XLM): [GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4A](https://stellarchain.io/address/GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4A)  MEMO: [477508745](/) (recommended, low fees)
-
-  <img src="brand_logo/donate_stellar.jpg" width="300">
-
 
 
 [2] After the transfer, save the transfer proof information such as the transfer photo or the hash number. Next, send that information to email [khathinkt@icloud.com](mailto:khathinkt@icloud.com) with the subject line "Donate Tidev". We will check and return you Tidev PRO activation license with any donation as a thank you. With donation ≥20USD You can also request sample Autoit API source code of AirVisual, Binance, Dropbox, Github, Open Weather Map, Telegram.
