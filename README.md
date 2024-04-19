@@ -39,7 +39,7 @@ https://tidevapp.wordpress.com
   
 - <img src="brand_logo/bl_crypto_btc_16.png" width="16"> Bitcoin (BTC): [bc1q5hewzqe7t7phhssrfx8dve79l00hzr5e5usq43](https://www.blockchain.com/btc/address/bc1q5hewzqe7t7phhssrfx8dve79l00hzr5e5usq43)
 
-  <img src="brand_logo/donate_bitcoin.jpg" width="300">
+  <img src="brand_logo/donate_bitcoin.png" width="300">
 
 
 [2] After the transfer, save the transfer proof information such as the transfer photo or the hash number. Next, send that information to email [khathinkt@icloud.com](mailto:khathinkt@icloud.com) with the subject line "Donate Tidev". We will check and return you Tidev PRO activation license with any donation as a thank you. With donation ≥20USD You can also request sample Autoit API source code of AirVisual, Binance, Dropbox, Github, Open Weather Map, Telegram.
