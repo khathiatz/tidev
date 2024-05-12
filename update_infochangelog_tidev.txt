@@ -1,3 +1,6 @@
+1.9.260
+USDVND forecast
+
 1.9.258
 Custom icon
 DNS
