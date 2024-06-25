@@ -6,12 +6,149 @@
       "urls": [],
       "substitutions": [
         {
+          "input": "ạ",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>dạ</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": false,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "ắc quy",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>bình trữ điện</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "băng rôn",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>biểu ngữ</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "bảo lãnh thanh toán",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>đền tiền</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "bố",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>cha</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
           "input": "bút",
           "inputType": "text",
           "outputType": "text",
           "output": "<i>viết</i>",
           "caseSensitive": false
-        },
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "cái bát",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>cái chén</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "căn hộ",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>cái nhà</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "cơ bản",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>căn bản</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
         {
           "input": "cơ mà",
           "inputType": "text",
@@ -32,11 +169,50 @@
           "input": "cơ",
           "inputType": "text",
           "outputType": "text",
-          "output": "thôi",
+          "output": "<i>thôi</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
+      "enabled": false,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "cơm chó",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>xà nẹo</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "cẩu lương",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>xà nẹo</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "đảm bảo",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>bảo đảm</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -48,11 +224,11 @@
           "input": "đấy",
           "inputType": "text",
           "outputType": "text",
-          "output": "đó",
+          "output": "<i>đó</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -64,11 +240,171 @@
           "input": "đỗ",
           "inputType": "text",
           "outputType": "text",
-          "output": "đậu",
+          "output": "<i>đậu</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "đột quỵ",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>chết bất ngờ</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "đuối nước",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>chết đuối</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "ga tàu thủy",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>bến</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "giấy dán tường",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>bích chương</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "lãi",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>lời</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "lính thủy đánh bộ",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>lục quân</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "lốp xe",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>vỏ xe</i>",
           "caseSensitive": false
         }
       ],
       "html": "none",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "máy bay lên thẳng",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>trực thăng</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "mồm",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>miệng</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "none",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "miễn nhiệm",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>cắt chức</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -80,11 +416,11 @@
           "input": "nốt",
           "inputType": "text",
           "outputType": "text",
-          "output": "xong",
+          "output": "<i>xong</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -96,11 +432,11 @@
           "input": "nghìn",
           "inputType": "text",
           "outputType": "text",
-          "output": "ngàn",
+          "output": "<i>ngàn</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -112,11 +448,11 @@
           "input": "như thế này",
           "inputType": "text",
           "outputType": "text",
-          "output": "như vầy",
+          "output": "<i>như vầy</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -128,11 +464,11 @@
           "input": "như này",
           "inputType": "text",
           "outputType": "text",
-          "output": "như vầy",
+          "output": "<i>như vầy</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -144,11 +480,59 @@
           "input": "như thế",
           "inputType": "text",
           "outputType": "text",
-          "output": "như vậy",
+          "output": "<i>như vậy</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "ngoại hình",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>dáng vẻ</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "ngô",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>bắp</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "nước dùng",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>nước lèo</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -160,11 +544,43 @@
           "input": "phá cỗ",
           "inputType": "text",
           "outputType": "text",
-          "output": "ăn tiệc",
+          "output": "<i>ăn tiệc</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "rang",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>chiên</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "sáng lạng",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>xán lạn</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -176,11 +592,98 @@
           "input": "sân bay",
           "inputType": "text",
           "outputType": "text",
-          "output": "phi trường",
+          "output": "<i>phi trường</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "tàu chiến",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>chiến hạm</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "tàu sân bay",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>hàng không mẫu hạm</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "tàu bay",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>phi cơ</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "máy bay",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>phi cơ</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "tên lửa",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>hỏa tiễn</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "tiếp viên",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>chiêu đãi viên</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -192,11 +695,11 @@
           "input": "thế nào",
           "inputType": "text",
           "outputType": "text",
-          "output": "ra sao",
+          "output": "<i>ra sao</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -208,11 +711,11 @@
           "input": "thế nhỉ",
           "inputType": "text",
           "outputType": "text",
-          "output": "vậy ta",
+          "output": "<i>vậy ta</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     },
@@ -224,11 +727,107 @@
           "input": "thế nhưng",
           "inputType": "text",
           "outputType": "text",
-          "output": "tuy vậy",
+          "output": "<i>tuy vậy</i>",
           "caseSensitive": false
         }
       ],
-      "html": "none",
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "to lớn",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>bự</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "tuyến đường",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i><del>tuyến</del> đường</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "vòng xuyến",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>bùng binh</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "xà phòng",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>xà bông</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "xe lửa",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>hỏa xa</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "xe ô tô",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>xe hơi</i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
       "enabled": true,
       "mode": "auto&manual"
     }
