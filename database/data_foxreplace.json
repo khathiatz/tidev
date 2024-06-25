@@ -397,6 +397,13 @@
       "urls": [],
       "substitutions": [
         {
+          "input": "miễn nhiệm chức vụ",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>cắt chức</i>",
+          "caseSensitive": false
+        },
+        {
           "input": "miễn nhiệm",
           "inputType": "text",
           "outputType": "text",
@@ -509,11 +516,18 @@
       "urls": [],
       "substitutions": [
         {
-          "input": "ngô",
+          "input": "ngô ",
           "inputType": "text",
           "outputType": "text",
-          "output": "<i>bắp</i>",
+          "output": "<i>bắp </i>",
           "caseSensitive": false
+        },
+        {
+          "input": "trái ngô",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>trái bắp</i>",
+          "caseSensitive": true
         }
       ],
       "html": "output",
@@ -557,10 +571,10 @@
       "urls": [],
       "substitutions": [
         {
-          "input": "rang",
+          "input": " rang",
           "inputType": "text",
           "outputType": "text",
-          "output": "<i>chiên</i>",
+          "output": "<i> chiên</i>",
           "caseSensitive": false
         }
       ],
@@ -824,6 +838,41 @@
           "inputType": "text",
           "outputType": "text",
           "output": "<i>xe hơi</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "xe ô-tô",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>xe hơi</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "ô tô tải",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>xe tải</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "ô-tô tải",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>xe tải</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "ô tô con",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>xe con</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "ô-tô con",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "<i>xe con</i>",
           "caseSensitive": false
         }
       ],
