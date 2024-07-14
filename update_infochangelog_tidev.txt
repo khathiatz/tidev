@@ -1,3 +1,7 @@
+1.9.269
+Fix bugs
+Improve performance
+
 1.9.260
 USDVND forecast
 
