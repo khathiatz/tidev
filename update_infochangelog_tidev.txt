@@ -1,4 +1,9 @@
-1.9.269
+2.0.34
+GUI change
+Fix Admin
+
+1.9.275
+App Clean add features
 Fix bugs
 Improve performance
 
