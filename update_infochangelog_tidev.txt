@@ -1,6 +1,9 @@
-2.0.34
+2.0.43
+Func Proxy
 GUI change
 Fix Admin
+Fix bugs
+Improve performance
 
 1.9.275
 App Clean add features
@@ -46,39 +49,3 @@ Improve performance
 MarketBoard func
 Fix bugs
 Improve performance
-
-1.8.185
-Oil update change to everyday
-Add date calc
-Improve cache data form API call
-Fix bugs
-Improve performance
-
-1.8.180
-Fix Crypto assest count
-Fix bugs
-Improve performance
-
-1.8.177
-Fix bugs
-Improve performance
-
-1.8.173
-Fix bugs
-Improve performance
-
-1.8.170
-Add Crypto highlight widget
-Fix bugs
-Improve performance
-
-1.8.165
-Improve T-Finance UI, T-Widget UI
-Set hotkey in "data.ini"
-Telegram command expire after 10 minutes
-Improve Finance crypto performance
-Crypto widget add CFGIndex symbol
-GUI can resize with mouse
-Fix bugs
-Improve performance
-
