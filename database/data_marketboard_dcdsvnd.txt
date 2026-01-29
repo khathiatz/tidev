@@ -1,6 +1,7 @@
 [
-{"symbolname":"DCDS/VND","lastValue":"107860.5","valueChange":"75.1","valueChangePercent":"0.5","updatetime_present":"2026/01/29 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
+{"symbolname":"DCDS/VND","lastValue":"107798.2","valueChange":"-62.3","valueChangePercent":"0.5","updatetime_present":"2026/01/30 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
 {"write":"..."}
+{"updatetime":"2026/01/30","price":"107798.2","source":"Bi-B316B46"}
 {"updatetime":"2026/01/29","price":"107860.5","source":"Bi-7863075"}
 {"updatetime":"2026/01/28","price":"107785.4","source":"Bi-8368992"}
 {"updatetime":"2026/01/27","price":"109698","source":"Bi-87A867E"}
