@@ -286,7 +286,7 @@
             }
 
             if (binary.length < 16 + 12 + 16) {
-                alert("Dữ liệu quá ngắn!");
+                alert("Dữ liệu quá ngắn hoặc đã được giải mã!");
                 return;
             }
 
@@ -310,7 +310,7 @@
 
                 document.getElementById("output").value = plaintext;
             } catch (e) {
-                alert("Sai mật mã hoặc dữ liệu bị hỏng!");
+                alert("Sai mật mã hoặc dữ liệu bị hư!");
             }
         }
 
@@ -345,5 +345,6 @@
 </body>
 
 </html>
+
 
 
