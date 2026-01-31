@@ -34,7 +34,23 @@
             border-color: #007bff;
             box-shadow: 0 0 0 2px rgba(0,123,255,0.2);
         }
-        button {
+		textarea#input {
+		    width: 100%;
+  		  	padding: 14px;
+  			font-size: 18px;
+ 		 	box-sizing: border-box;
+  			border: 1px solid #ccc;
+  		  	border-radius: 8px;
+  		 	outline: none;
+  			min-height: 52px;
+  			resize: vertical;          /* chỉ cho kéo dọc, không kéo ngang */
+		}
+
+		textarea#input:focus {
+ 		   border-color: #007bff;
+  		  box-shadow: 0 0 0 2px rgba(0,123,255,0.2);
+		}
+   	     button {
             padding: 18px 20px;
             font-size: 20px;
             cursor: pointer;
@@ -46,17 +62,26 @@
         button:hover {
             background: #0056b3;
         }
-        #output {
-            margin-top: 20px;
-            background: #f0f0f0;
-            padding: 15px;
-            font-size: 18px;
-            white-space: pre-wrap;
-            word-break: break-all;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            min-height: 150px;
-        }
+       textarea#output {
+   			width: 100%;
+    		padding: 14px;
+    		font-size: 18px;
+    		box-sizing: border-box;
+    		border: 1px solid #ccc;
+    		border-radius: 8px;
+    		outline: none;
+    		background: #f0f0f0;
+    		white-space: pre-wrap;
+    		word-break: break-all;
+    		min-height: 150px;
+    		resize: vertical;          /* cho phép kéo dọc để chỉnh kích thước */
+    		margin-top: 20px;
+		}
+
+		textarea#output:focus {
+    		border-color: #007bff;
+    		box-shadow: 0 0 0 2px rgba(0,123,255,0.2);
+		}
         .action-buttons {
             display: flex;
             gap: 15px;
@@ -129,7 +154,7 @@
     <label>Chuỗi cần mã hóa / Base64 cần giải mã:</label>
     <div class="input-row">
         <div class="input-wrapper">
-            <input type="text" id="input" value="Xin chào bạn! 😊">
+            <textarea id="input">Xin chào bạn! 😊</textarea>
         </div>
         <button onclick="pasteToInput()" style="height: 52px;">Dán từ clipboard</button>
     </div>
@@ -143,7 +168,7 @@
         <button onclick="copyOutput()" style="width: 100%; max-width: 400px;">Sao chép & xóa kết quả</button>
     </div>
     
-    <pre id="output">Kết quả sẽ hiện ở đây...</pre>
+    <textarea id="output">Kết quả sẽ hiện ở đây...</textarea>
 
 	 <!-- Credit -->
     <div class="credit">
@@ -241,7 +266,7 @@
             result.set(ciphertextWithTag, salt.byteLength + iv.byteLength);
 
             const base64 = btoa(String.fromCharCode(...result));
-            document.getElementById("output").textContent = base64;
+            document.getElementById("output").value = base64;
         }
 
         async function decrypt() {
@@ -283,42 +308,30 @@
                 let plaintext = decoder.decode(decrypted);
                 plaintext = unescapeUnicode(plaintext);
 
-                document.getElementById("output").textContent = plaintext;
+                document.getElementById("output").value = plaintext;
             } catch (e) {
                 alert("Sai mật mã hoặc dữ liệu bị hỏng!");
             }
         }
 
 		async function copyOutput() {
-			const outputElement = document.getElementById("output");
-   			const output = outputElement.textContent.trim(); // trim để tránh copy rác khoảng trắng
-			if (!output) {
-				alert("Chưa có kết quả gì để copy nghen bạn!");
+    		const outputElement = document.getElementById("output");
+    		const output = outputElement.value.trim(); // trim để tránh copy rác khoảng trắng
+    		if (!output) {
+        		alert("Chưa có kết quả gì để copy nghen bạn!");
         		return;
-		    }
- 		   try {
-   		     await navigator.clipboard.writeText(output);
-				// Xóa kết quả sau khi copy thành công
-       			outputElement.textContent = "";
-			   // Xóa dữ liệu input
-				document.getElementById("input").value = "";
-				// Optional: hiện thông báo xịn hơn (có thể bỏ nếu không thích)
-				// alert("Đã copy xong và xóa kết quả cho sếp rồi nha! ✓");
-			} catch (err) {
-				console.error("Lỗi copy:", err);
-				alert("Sao chép thất bại, bạn chọn thủ công copy giùm tui nghen!");
-			}
+    		}
+    		try {
+        		await navigator.clipboard.writeText(output);
+		        // Xóa kết quả sau khi copy thành công
+       			 outputElement.value = "";
+        		// Xóa dữ liệu input
+        		document.getElementById("input").value = "";
+    		} catch (err) {
+        		console.error("Lỗi copy:", err);
+        		alert("Sao chép thất bại, bạn chọn thủ công copy giùm tui nghen!");
+    		}
 		}
-		
-        async function copyOutput_OLD_DELETE() {
-            const output = document.getElementById("output").textContent;
-            if (!output) return;
-            try {
-                await navigator.clipboard.writeText(output);
-            } catch (err) {
-                alert("Sao chép thất bại, bạn thử chọn thủ công nghen!");
-            }
-        }
 
         async function pasteToInput() {
             try {
@@ -332,6 +345,5 @@
 </body>
 
 </html>
-
 
 
