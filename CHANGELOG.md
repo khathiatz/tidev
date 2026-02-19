@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.0.87]
+## [2.0.99]
 - Add func TiCrypt.
 - Fix bugs.
 - Improve performance.
@@ -22,4 +22,5 @@
 - GUI change
 - Fix Admin
 - Fix bugs
+
 - Improve performance
