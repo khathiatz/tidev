@@ -1,6 +1,7 @@
 [
-{"symbolname":"FUEVFVND/VND","lastValue":"40434.9","valueChange":"118.4","valueChangePercent":"0","updatetime_present":"2026/02/25 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
+{"symbolname":"FUEVFVND/VND","lastValue":"40434.9","valueChange":"118.4","valueChangePercent":"0","updatetime_present":"2026/02/24 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
 {"write":"..."}
+{"updatetime":"2026/02/24","price":"40434.9","source":"DC-8368992"}
 {"updatetime":"2026/02/25","price":"40434.9","source":"DC-87A867E"}
 {"updatetime":"2026/02/24","price":"40434.9","source":"DC-8368992"}
 {"updatetime":"2026/02/25","price":"40434.9","source":"DC-B316B46"}
