@@ -1,6 +1,7 @@
 [
-{"symbolname":"PAXG/USDT","lastValue":"5204.81000000","valueChange":"-213.85000000","valueChangePercent":"0.38","updatetime_present":"2026/03/03 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
+{"symbolname":"PAXG/USDT","lastValue":"5170.75000000","valueChange":"-208.04000000","valueChangePercent":"0.38","updatetime_present":"2026/03/04 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
 {"write":"..."}
+{"updatetime":"2026/03/04","price":"5170.75000000","source":"Bi-B316B46"}
 {"updatetime":"2026/03/03","price":"5204.81000000","source":"Bi-B316B46"}
 {"updatetime":"2026/03/02","price":"5391.65000000","source":"Bi-8368992"}
 {"updatetime":"2026/03/01","price":"5403.58000000","source":"Bi-8368992"}
