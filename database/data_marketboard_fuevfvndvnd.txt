@@ -1,6 +1,7 @@
 [
-{"symbolname":"FUEVFVND/VND","lastValue":"37169.49","valueChange":"368.15","valueChangePercent":"0","updatetime_present":"2026/03/18 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
+{"symbolname":"FUEVFVND/VND","lastValue":"37202.40","valueChange":"32.91","valueChangePercent":"0","updatetime_present":"2026/03/19 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
 {"write":"..."}
+{"updatetime":"2026/03/19","price":"37202.40","source":"DC-8368992"}
 {"updatetime":"2026/03/18","price":"37169.49","source":"DC-8368992"}
 {"updatetime":"2026/03/17","price":"36801.34","source":"DC-8368992"}
 {"updatetime":"2026/03/16","price":"36801.34","source":"DC-8368992"}
