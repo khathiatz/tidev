@@ -1,0 +1,5 @@
+[
+{"symbolname":"RON95V/VND","lastValue":"34240","valueChange":"0","valueChangePercent":"0","updatetime_present":"2026/03/24 00:00:00","updatetime_history":"","source_link":"petrolimex.com.vn","author":"admin"}
+{"write":"..."}
+{"updatetime":"2026/03/24","price":"34240","source":"PLX"}
+]
