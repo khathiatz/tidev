@@ -1,5 +1,6 @@
 [
-{"symbolname":"RON95V/VND","lastValue":"34240","valueChange":"0","valueChangePercent":"0","updatetime_present":"2026/03/24 00:00:00","updatetime_history":"","source_link":"petrolimex.com.vn","author":"admin"}
+{"symbolname":"RON95V/VND","lastValue":"29950","valueChange":"0","valueChangePercent":"0","updatetime_present":"2026/03/25 00:00:00","updatetime_history":"","source_link":"petrolimex.com.vn","author":"admin"}
 {"write":"..."}
+{"updatetime":"2026/03/25","data":{"symbol":"RON95VVND","symbolname":"RON95V/VND","lastValue":"29950","valueChange":"0","valueChangePercent":"0","updatetime_present":"2026/03/25 14:00:00","updatetime_next":"2026/04/01 14:00:00","lastValue_ron95v":"30350","lastValue_ron95v_v2":"30950","lastValue_ron95iii":"29950","lastValue_ron95iii_v2":"30540","lastValue_e10":"28020","lastValue_e10_v2":"28580","lastValue_e5":"28070","lastValue_e5_v2":"28630","lastValue_do001":"38090","lastValue_do001_v2":"38850","lastValue_do05":"37890","lastValue_do05_v2":"38640","widget_name":"RON95V/VND","widget_trend":"NoChange","widget_value":"29950","widget_change":"0","widget_percent":"0","widget_note1":"25/3","widget_note2":"1/4","widget_updatetime":"2026/03/25 04:45:21","timestamp":1774422000},"source":"PLX-8368992"}
 {"updatetime":"2026/03/24","price":"34240","source":"PLX"}
 ]
