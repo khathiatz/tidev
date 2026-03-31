@@ -1,6 +1,7 @@
 [
-{"symbolname":"XRP/USDT","lastValue":"1.32640000","valueChange":"-0.02610000","valueChangePercent":"-2.18","updatetime_present":"2026/03/31 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
+{"symbolname":"XRP/USDT","lastValue":"1.32820000","valueChange":"-0.00610000","valueChangePercent":"-2.18","updatetime_present":"2026/04/01 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
 {"write":"..."}
+{"updatetime":"2026/04/01","price":"1.32820000","source":"Bi-87A867E"}
 {"updatetime":"2026/03/31","price":"1.32640000","source":"Bi-87A867E"}
 {"updatetime":"2026/03/30","price":"1.33800000","source":"Bi-8368992"}
 {"updatetime":"2026/03/31","price":"1.34040000","source":"Bi-87A867E"}
