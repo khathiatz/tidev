@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.0.122]
+- Fix Widget stuck InetRead
+- Fix bugs.
+- Improve performance.
+
 ## [2.0.99]
 - Add func TiCrypt.
 - Fix bugs.
@@ -22,5 +27,4 @@
 - GUI change
 - Fix Admin
 - Fix bugs
-
 - Improve performance
