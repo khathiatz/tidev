@@ -1,6 +1,7 @@
 [
-{"symbolname":"BTC/USDT","lastValue":"65062.98000000","valueChange":"776.98000000","valueChangePercent":"3.5","updatetime_present":"2026/08/08 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
+{"symbolname":"BTC/USDT","lastValue":"65086.46000000","valueChange":"322.46000000","valueChangePercent":"3.5","updatetime_present":"2026/08/09 00:00:00","updatetime_history":"","source_link":"","author":"admin"}
 {"write":"..."}
+{"updatetime":"2026/08/09","price":"65086.46000000","source":"Bi-87A867E"}
 {"updatetime":"2026/08/08","price":"65062.98000000","source":"Bi-87A867E"}
 {"updatetime":"2026/08/07","price":"65058.00000000","source":"Bi-8493B62"}
 {"updatetime":"2026/08/08","price":"64881.78000000","source":"Bi-B316B46"}
